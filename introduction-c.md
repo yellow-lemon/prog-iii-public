@@ -151,6 +151,6 @@ for (int i = 0; i < 42; i++) {
 
 ```
 ## gcc
-` gcc main.c \
-`gcc main.c -o programme.exe \
-`gcc -g main.c \
+`gcc main.c`
+`gcc main.c -o programme.exe`
+`gcc -g main.c`
