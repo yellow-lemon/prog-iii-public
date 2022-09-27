@@ -81,14 +81,6 @@ void main() {
 typedef unsigned char byte;
 ```
 
-## stdbool.h
-```c
-#define FALSE 0
-#define TRUE 1
-
-typedef unsigned char bool
-```
-
 ## Oprérateurs
 Arithmétiques : =, +, -, *, /, %, ++, -- \
 relationels : ==, <, <=, >, >=, != \
@@ -131,8 +123,8 @@ switch(i) {
         instructionD();
         break;
 }
-// Le break permet de sortir du case, donc ici, puisqu'il n'y a pas de break dans le case 4, instructionC() sera aussi exécuté
 ```
+Le break permet de sortir du case, donc ici, puisqu'il n'y a pas de break dans le case 4, instructionC() sera aussi exécuté
 ## Structure de répétition
 tant que :
 ```c
