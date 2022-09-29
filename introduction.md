@@ -23,9 +23,25 @@ int entier1 = 12, entier2;
 
 ## TABLEAU
 Type identificateur[N];
+
 ```c
 int tabEntiers[5];
 ```
+
+Les chaines doivent contenir un caractères supplémentaire (0) pour dire au printf quand arrêter de lire. Example:
+```c
+
+int main() {
+    char chaineA[7] = "Bonjour"; //ERREUR
+    char chaineB[5] = "Salut"; //ERREUR
+
+    printf("%s", chaineB);
+    return 0;
+}
+```
+Output:
+![](img/array-sans-0-output.PNG)
+
 ### String 
 char chaine[N + 1] La dernière case doit toujours être zéro
 
@@ -159,6 +175,22 @@ for (int i = 0; i < 42; i++) {
 
 ```
 ## gcc
-` gcc main.c \
-`gcc main.c -o programme.exe \
-`gcc -g main.c \
+- `gcc main.c`
+- `gcc main.c -o programme.exe `
+- `gcc -g main.c `
+
+
+## Débuging
+![Mardown Logo](img/debuger.png)
+
+## Pile
+Type : L.I.F.O \
+Accès : Dessus \
+Fonctionalité :
+- Empiler (push)
+- Dépiler (pop)
+- Compte (size)
+
+Représentation :
+- SS (tableau représentant la pile)
+- SP (indice du tableau de la pile)
