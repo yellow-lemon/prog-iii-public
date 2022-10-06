@@ -7,14 +7,14 @@ Variable comme une autre mais qui contient une adresse de la mémoire centrale, 
 int entier; // Contient une valeur entière
 int* pEntier; // Contient un adresse de la mémoire centrale où se trouve une valeur entière.
 ```
-![](img/pointeur-declaration.PNG) <!--set max width-->
+![](img/pointeur-declaration.png) <!--set max width-->
 ## Allocation
 ```c
 malloc(nbeOctets);
 malloc(sizeof(int));
 malloc(4);
 ```
-![](img/pointeur-allocation.PNG) <!--set max width-->
+![](img/pointeur-allocation.png) <!--set max width-->
 
 ## Libération
 ```c
@@ -26,13 +26,13 @@ La libération de mémoire n'initialise pas à zéro (opération inutile), elle 
 ```c
 *pEntier=404;
 ```
-![](img/pointeur-indirection.PNG) <!--set max width-->
+![](img/pointeur-indirection.png) <!--set max width-->
 
 ## Déréférencement
 ```c
 pEntier = &entier //Va chercher l'adresse de lal variable visé
 ```
-![](img/pointeur-dereferencement.PNG) <!--set max width-->
+![](img/pointeur-dereferencement.png) <!--set max width-->
 
 ```c
 pEntier = &entier;
