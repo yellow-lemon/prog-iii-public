@@ -10,7 +10,7 @@ int* pEntier; // Contient un adresse de la mémoire centrale où se trouve une v
 ![](img/pointeur-declaration.png) <!--set max width-->
 ## Allocation
 ```c
-malloc(nbeOctets);
+pEntier = malloc(nbeOctets);
 malloc(sizeof(int));
 malloc(4);
 ```
@@ -38,4 +38,19 @@ pEntier = &entier //Va chercher l'adresse de lal variable visé
 pEntier = &entier;
 *pEntier = 666;
 printf("%i", entier); //output = 666
+```
+
+## Tableau
+Dans un tableau, le pointeur pointe vers le premier octet de la suite
+
+```c
+int tabEntiers[5]; // int* tabEntiers = malloc(5*sizeof(int))
+tabEntiers[2] = 42;
+```
+![](img/pointeur-tableau-declaration.png)
+
+## Chaine de caractères
+Tableau de caractères se terminant par la valeur 0.
+```c
+char tabCaracteres[5] = {'A', 'L', 'L', 'O', 0} // Se termine par zéro pour annoncé la fin de la chaine
 ```
