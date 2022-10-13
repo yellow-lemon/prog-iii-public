@@ -12,4 +12,17 @@ ar -rcs ./libAddition.a ./Addition.o
 gcc ./main.c -o Programme.exe -L. -lAddition
 ```
 
-boot-repair
+# Documentation
+Fichier : 
+```
+/// \File nomFichier.ext
+/// \Author Prenom Nom (courriel)
+/// \brief description
+```
+
+Fonction :
+```
+/// \Brief description
+/// \Param identificatuer description
+/// \return descripiton
+```

@@ -1,1 +1,0 @@
-`gcc -c ./Addition.c`
