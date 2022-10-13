@@ -54,3 +54,12 @@ Tableau de caractères se terminant par la valeur 0.
 ```c
 char tabCaracteres[5] = {'A', 'L', 'L', 'O', 0} // Se termine par zéro pour annoncé la fin de la chaine
 ```
+### Fonction
+```c
+#include <string.h>
+size.t stlen(chaine);
+void strcopy(destination, source);
+int strcmp(chaineA, chaineB); // EN ORDRE ASCII : < 0 cahineA vient avant chaine B, == identiques, > 0 chaineA viens apres chaineB
+sprintf(destination, format, donnees); //Comme le printf, mais store le resultat dans "Destination" au lieu de le print
+```
+
