@@ -10,6 +10,12 @@ Représentation :
 - SS (tableau représentant la pile)
 - SP (indice du tableau de la pile)
 
+## File
+Type : FIFO
+fonctionnalités : 
+- Enfiler (PUSH)
+- Défiler (POP)
+
 ## Struct
 ```c
 struct Chien {
