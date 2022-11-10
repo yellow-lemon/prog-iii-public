@@ -29,7 +29,7 @@ printf("Entier : %i, pi : %f, %f \n", entier, pi);
 
 En cpp
 ```cpp
-STD::COUT << "entier : " << entier << "PI : " << STD::ENDL;
+std::cout << "entier : " << entier << "PI : " << STD::ENDL;
 ```
 
 # Types
