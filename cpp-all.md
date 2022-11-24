@@ -50,13 +50,7 @@ pInt = nullptr;
 ```
 `nullptr` pointe sur l'adresse 0
 
-# Limitaion de la pile en C
-- Réutilisation --> Fichier d'en-tête
-- Plusieurs instances --> Structures
-- Limitation/Gaspille de mémoire --> Allocation dynamique et libération
-- Robustesse
-- Convivialité
-- Type imposé
+
 
 # New
 Exemple :
@@ -68,18 +62,14 @@ Queue<int> fileEntiers = new Queue<int>();
 1. Appel du constructeur
 1. Retour de l'adresse mémoire de l'instance
 
-## Implémentation
+# Delete
 ```cpp
-Queue<int> fileEntiers = new Queue<int>();
+delete skydiverQueue;
 ```
 
-// Ajouter une image
+1. Appel du destructeur
+1. Libération de l'instance
 
-```cpp
-fileEntier->push(42);
-fileEntier->push(404);
-```
-// Ajouter une image (déja fait)
 
 # Classes
 ```cpp
@@ -128,3 +118,14 @@ private :
 ...
 ```
 
+# Aléatoire
+```cpp
+#include <ctime>
+srand(time(0)); // Une seule fois dans tout le programme
+int i = rand % 4; // i = 0..3
+```
+
+# Récursivité
+Une fonction/méthode qui se rappel elle-même.
+- Remplace une boucle
+- Nécissite un paramètre comme itérateur
