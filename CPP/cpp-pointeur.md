@@ -24,7 +24,7 @@ entier = 3;
 
 ## Indirection
 ```cpp
-*pEntier = 43;
+*pEntier = 42;
 ```
 ![](img/pointeur-indirection.png)
 
