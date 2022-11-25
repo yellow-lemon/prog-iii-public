@@ -1,18 +1,18 @@
 # Pointeur
 ## Description 
-Variable comme une autre mais qui contient une adresse de la mémoire centrale, plutôt qu'une valeur.
+Variable qui contient une adresse de la mémoire centrale, plutôt qu'une valeur.
 
 ## Déclaration
-```c
-int entier; // Contient une valeur entière
-int* pEntier; // Contient un adresse de la mémoire centrale où se trouve une valeur entière.
+### C
+```cpp
+int entier;
+int* pEntier;
 ```
+
 ![](img/pointeur-declaration.png) <!--set max width-->
 ## Allocation
-```c
-pEntier = malloc(nbeOctets);
-malloc(sizeof(int));
-malloc(4);
+```cpp
+pEntier
 ```
 ![](img/pointeur-allocation.png) <!--set max width-->
 
