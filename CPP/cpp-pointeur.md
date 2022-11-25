@@ -13,7 +13,7 @@ int* pEntier;
 ```cpp
 pEntier = new int; //Équivalent du malloc
 ```
-**Attention :** Lorsqu'il y a un new, il doit y avoir un [delete](#déréférencement)
+**Attention :** Lorsqu'il y a un new, il doit y avoir un [delete](#Libération)
 
 ![](img/pointeur-allocation1.png)
 ```cpp
