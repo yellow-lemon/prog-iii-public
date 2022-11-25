@@ -1,18 +1,18 @@
 # Pointeur
 ## Description 
-Variable qui contient une adresse de la mémoire centrale, plutôt qu'une valeur.
+Variable comme une autre mais qui contient une adresse de la mémoire centrale, plutôt qu'une valeur.
 
 ## Déclaration
-### C
-```cpp
-int entier;
-int* pEntier;
+```c
+int entier; // Contient une valeur entière
+int* pEntier; // Contient un adresse de la mémoire centrale où se trouve une valeur entière.
 ```
-
 ![](img/pointeur-declaration.png) <!--set max width-->
 ## Allocation
-```cpp
-pEntier
+```c
+pEntier = malloc(nbeOctets);
+malloc(sizeof(int));
+malloc(4);
 ```
 ![](img/pointeur-allocation.png) <!--set max width-->
 
@@ -62,4 +62,3 @@ void strcopy(destination, source);
 int strcmp(chaineA, chaineB); // EN ORDRE ASCII : < 0 cahineA vient avant chaine B, == identiques, > 0 chaineA viens apres chaineB
 sprintf(destination, format, donnees); //Comme le printf, mais store le resultat dans "Destination" au lieu de le print
 ```
-
