@@ -8,3 +8,5 @@
 - [BSTree](cpp-BSTree.md)
   - BSTree normal
   - BSTree récursif
+
+- Parcours (BSTree)
