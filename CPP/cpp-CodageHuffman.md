@@ -56,3 +56,7 @@ CANCUN EN GOUGOUNE : \
 
 ## Déchiffrement
 Recréer l'arbre à partir de la clé, puis suivre le chemin
+
+- Créer l'arbre avec la clé (C:2, A:1, N:4...)
+- Suivre le chiffrement (1111 1110 00111111...) jusqu'à atteindre une feuille.
+- Répété jusqu'à atteindre la priorité total (car la priorité total = nbe de caractères).
